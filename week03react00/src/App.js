@@ -15,7 +15,7 @@ class App extends React.Component{
     let page;
     if(this.state.showing === 'askName'){
       page = (
-        <div>
+      <div>
         <div>What is your name?</div>
         <input type='text' name='username' value={this.state.username} onChange={(e) => this.setState({username: e.target.value})}></input>
         <button onClick={(e) => this.setState({showing: ''})}>Click here</button>
