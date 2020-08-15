@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Converter from './Converter';
+import Selector from './Converter';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Converter />
+    <Selector />
   </React.StrictMode>,
   document.getElementById('root')
 );
